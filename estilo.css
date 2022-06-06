@@ -1,0 +1,138 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+header {
+	padding: 5px 0;
+	background: #4f784e;
+}
+
+.box {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.titulos {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+}
+
+form {
+	width: 100%;
+	margin: 30px auto;
+}
+
+form h2 {
+	text-align: center;
+	font-size: 1.8em;
+	color: #ff8a9d;
+}
+
+.grupo {
+	display: inline-block;
+}
+
+label {
+	display: block;
+	margin: 0 0 10px;
+	font-size: 20px;
+}
+
+table {
+	width: 400px;
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+thead {
+	background:#939473;
+	color: white;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 8px 15px;
+	font-size: 18px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+	border-color: #38c958;
+	box-sizing: border-box;
+}
+
+.input-medio {
+	display: inline-block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 100%;
+	border-color: #38c958;
+	box-sizing: border-box;
+}
+
+.grupo{
+	width: 32.8%;
+	display: inline-block;
+}
+
+.botao {
+	background: #13444d;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 25px;
+	position:absolute;
+	top: 270px;
+	left: 400px;
+	margin-top: 30px;
+}
+
+.botao:hover {
+	background: #7dad93;
+	transition: 1s background;
+	cursor: pointer;
+	
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+.animacao {
+	opacity: 0;
+	transition: 1s;
+}
+
+.invisivel {
+	display: none;
+}
+
+
+
+footer {
+	text-align: center;
+	background: #4f784e;
+	width: 100%;
+	position: absolute;
+	margin-top: 150px;
+}
+
+footer p {
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+}
